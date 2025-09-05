@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Countries - African Heritage Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">African Heritage</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="countries.html" class="nav-link active">Countries</a>
+                <a href="wildlife.html" class="nav-link">Wildlife</a>
+                <a href="culture.html" class="nav-link">Culture</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>African Countries</h1>
+            <p>Discover the diverse nations that make up the African continent</p>
+        </div>
+    </section>
+
+    <!-- Countries Grid -->
+    <section class="countries-grid">
+        <div class="container">
+            <div class="grid-filters">
+                <button class="filter-btn active" data-filter="all">All Regions</button>
+                <button class="filter-btn" data-filter="west">West Africa</button>
+                <button class="filter-btn" data-filter="east">East Africa</button>
+                <button class="filter-btn" data-filter="north">North Africa</button>
+                <button class="filter-btn" data-filter="south">Southern Africa</button>
+                <button class="filter-btn" data-filter="central">Central Africa</button>
+            </div>
+
+            <div class="countries-container">
+                <div class="country-card" data-region="east">
+                    <div class="country-flag">
+                        <img src="images/countries/kenya-flag.jpg" alt="Kenya Flag">
+                    </div>
+                    <div class="country-info">
+                        <h3>Kenya</h3>
+                        <p>Nairobi</p>
+                        <div class="country-stats">
+                            <span><i class="fas fa-landmark"></i> Safari Capital</span>
+                            <span><i class="fas fa-users"></i> 53M people</span>
+                        </div>
+                        <a href="#" class="btn-card">Explore Kenya</a>
+                    </div>
+                </div>
+
+                <div class="country-card" data-region="west">
+                    <div class="country-flag">
+                        <img src="images/countries/ghana-flag.jpg" alt="Ghana Flag">
+                    </div>
+                    <div class="country-info">
+                        <h3>Ghana</h3>
+                        <p>Accra</p>
+                        <div class="country-stats">
+                            <span><i class="fas fa-landmark"></i> Gold Coast</span>
+                            <span><i class="fas fa-users"></i> 31M people</span>
+                        </div>
+                        <a href="#" class="btn-card">Explore Ghana</a>
+                    </div>
+                </div>
+
+                <div class="country-card" data-region="north">
+                    <div class="country-flag">
+                        <img src="images/countries/egypt-flag.jpg" alt="Egypt Flag">
+                    </div>
+                    <div class="country-info">
+                        <h3>Egypt</h3>
+                        <p>Cairo</p>
+                        <div class="country-stats">
+                            <span><i class="fas fa-landmark"></i> Ancient Civilization</span>
+                            <span><i class="fas fa-users"></i> 102M people</span>
+                        </div>
+                        <a href="#" class="btn-card">Explore Egypt</a>
+                    </div>
+                </div>
+
+                <div class="country-card" data-region="south">
+                    <div class="country-flag">
+                        <img src="images/countries/south-africa-flag.jpg" alt="South Africa Flag">
+                    </div>
+                    <div class="country-info">
+                        <h3>South Africa</h3>
+                        <p>Pretoria</p>
+                        <div class="country-stats">
+                            <span><i class="fas fa-landmark"></i> Rainbow Nation</span>
+                            <span><i class="fas fa-users"></i> 60M people</span>
+                        </div>
+                        <a href="#" class="btn-card">Explore South Africa</a>
+                    </div>
+                </div>
+
+                <div class="country-card" data-region="east">
+                    <div class="country-flag">
+                        <img src="images/countries/tanzania-flag.jpg" alt="Tanzania Flag">
+                    </div>
+                    <div class="country-info">
+                        <h3>Tanzania</h3>
+                        <p>Dodoma</p>
+                        <div class="country-stats">
+                            <span><i class="fas fa-landmark"></i> Kilimanjaro</span>
+                            <span><i class="fas fa-users"></i> 59M people</span>
+                        </div>
+                        <a href="#" class="btn-card">Explore Tanzania</a>
+                    </div>
+                </div>
+
+                <div class="country-card" data-region="west">
+                    <div class="country-flag">
+                        <img src="images/countries/nigeria-flag.jpg" alt="Nigeria Flag">
+                    </div>
+                    <div class="country-info">
+                        <h3>Nigeria</h3>
+                        <p>Abuja</p>
+                        <div class="country-stats">
+                            <span><i class="fas fa-landmark"></i> Giant of Africa</span>
+                            <span><i class="fas fa-users"></i> 206M people</span>
+                        </div>
+                        <a href="#" class="btn-card">Explore Nigeria</a>
+                    </div>
+                </div>
+
+                <div class="country-card" data-region="central">
+                    <div class="country-flag">
+                        <img src="images/countries/congo-flag.jpg" alt="DR Congo Flag">
+                    </div>
+                    <div class="country-info">
+                        <h3>DR Congo</h3>
+                        <p>Kinshasa</p>
+                        <div class="country-stats">
+                            <span><i class="fas fa-landmark"></i> Rainforests</span>
+                            <span><i class="fas fa-users"></i> 89M people</span>
+                        </div>
+                        <a href="#" class="btn-card">Explore DR Congo</a>
+                    </div>
+                </div>
+
+                <div class="country-card" data-region="north">
+                    <div class="country-flag">
+                        <img src="images/countries/morocco-flag.jpg" alt="Morocco Flag">
+                    </div>
+                    <div class="country-info">
+                        <h3>Morocco</h3>
+                        <p>Rabat</p>
+                        <div class="country-stats">
+                            <span><i class="fas fa-landmark"></i> Imperial Cities</span>
+                            <span><i class="fas fa-users"></i> 37M people</span>
+                        </div>
+                        <a href="#" class="btn-card">Explore Morocco</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="africa-map">
+        <div class="container">
+            <h2 class="section-title">Explore Africa's Regions</h2>
+            <div class="map-container">
+                <img src="images/africa-map.png" alt="Africa Map" class="map-image">
+                <div class="map-point" style="top: 30%; left: 45%;">
+                    <div class="point"></div>
+                    <div class="map-tooltip">North Africa</div>
+                </div>
+                <div class="map-point" style="top: 45%; left: 30%;">
+                    <div class="point"></div>
+                    <div class="map-tooltip">West Africa</div>
+                </div>
+                <div class="map-point" style="top: 50%; left: 55%;">
+                    <div class="point"></div>
+                    <div class="map-tooltip">East Africa</div>
+                </div>
+                <div class="map-point" style="top: 75%; left: 45%;">
+                    <div class="point"></div>
+                    <div class="map-tooltip">Southern Africa</div>
+                </div>
+                <div class="map-point" style="top: 45%; left: 45%;">
+                    <div class="point"></div>
+                    <div class="map-tooltip">Central Africa</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>African Heritage Explorer</h3>
+                    <p>Discovering and sharing the diverse beauty of Africa through education and inspiration.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="countries.html">Countries</a></li>
+                        <li><a href="wildlife.html">Wildlife</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Travel Guides</a></li>
+                        <li><a href="#">Cultural Events</a></li>
+                        <li><a href="#">Wildlife Conservation</a></li>
+                        <li><a href="#">Historical Archives</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Heritage Street, Cultural District</p>
+                    <p><i class="fas fa-phone"></i> +1 (234) 567-8901</p>
+                    <p><i class="fas fa-envelope"></i> info@africanheritage.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 African Heritage Explorer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/countries.js"></script>
+</body>
+</html>

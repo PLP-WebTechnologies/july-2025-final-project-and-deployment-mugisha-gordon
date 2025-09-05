@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Wildlife - African Heritage Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">African Heritage</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="countries.html" class="nav-link">Countries</a>
+                <a href="wildlife.html" class="nav-link active">Wildlife</a>
+                <a href="culture.html" class="nav-link">Culture</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>African Wildlife</h1>
+            <p>Discover the incredible animals that call Africa home</p>
+        </div>
+    </section>
+
+    <!-- Wildlife Gallery -->
+    <section class="wildlife-gallery">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Animals</button>
+                <button class="filter-btn" data-filter="safari">Big Five</button>
+                <button class="filter-btn" data-filter="predators">Predators</button>
+                <button class="filter-btn" data-filter="herbivores">Herbivores</button>
+                <button class="filter-btn" data-filter="endangered">Endangered</button>
+            </div>
+
+            <div class="gallery-container">
+                <div class="animal-card" data-category="safari">
+                    <div class="animal-image">
+                        <img src="images/wildlife/lion.jpg" alt="Lion">
+                        <div class="animal-overlay">
+                            <h3>Lion</h3>
+                            <p>Panthera leo</p>
+                        </div>
+                    </div>
+                    <div class="animal-info">
+                        <p>The lion is a large cat of the genus Panthera, native to Africa and India.</p>
+                        <a href="#" class="btn-card">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="safari">
+                    <div class="animal-image">
+                        <img src="images/wildlife/elephant.jpg" alt="Elephant">
+                        <div class="animal-overlay">
+                            <h3>African Elephant</h3>
+                            <p>Loxodonta africana</p>
+                        </div>
+                    </div>
+                    <div class="animal-info">
+                        <p>The African elephant is the largest living land animal, native to various habitats in Africa.</p>
+                        <a href="#" class="btn-card">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="safari">
+                    <div class="animal-image">
+                        <img src="images/wildlife/leopard.jpg" alt="Leopard">
+                        <div class="animal-overlay">
+                            <h3>Leopard</h3>
+                            <p>Panthera pardus</p>
+                        </div>
+                    </div>
+                    <div class="animal-info">
+                        <p>The leopard is one of the five extant species in the genus Panthera, native to Africa and Asia.</p>
+                        <a href="#" class="btn-card">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="safari">
+                    <div class="animal-image">
+                        <img src="images/wildlife/rhino.jpg" alt="Rhinoceros">
+                        <div class="animal-overlay">
+                            <h3>Black Rhino</h3>
+                            <p>Diceros bicornis</p>
+                        </div>
+                    </div>
+                    <div class="animal-info">
+                        <p>The black rhinoceros is a species of rhinoceros, native to eastern and southern Africa.</p>
+                        <a href="#" class="btn-card">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="safari">
+                    <div class="animal-image">
+                        <img src="images/wildlife/buffalo.jpg" alt="Buffalo">
+                        <div class="animal-overlay">
+                            <h3>Cape Buffalo</h3>
+                            <p>Syncerus caffer</p>
+                        </div>
+                    </div>
+                    <div class="animal-info">
+                        <p>The African buffalo is a large sub-Saharan African bovine, known for its unpredictable nature.</p>
+                        <a href="#" class="btn-card">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="predators">
+                    <div class="animal-image">
+                        <img src="images/wildlife/cheetah.jpg" alt="Cheetah">
+                        <div class="animal-overlay">
+                            <h3>Cheetah</h3>
+                            <p>Acinonyx jubatus</p>
+                        </div>
+                    </div>
+                    <div class="animal-info">
+                        <p>The cheetah is a large cat native to Africa and central Iran, known for being the fastest land animal.</p>
+                        <a href="#" class="btn-card">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="herbivores">
+                    <div class="animal-image">
+                        <img src="images/wildlife/giraffe.jpg" alt="Giraffe">
+                        <div class="animal-overlay">
+                            <h3>Giraffe</h3>
+                            <p>Giraffa camelopardalis</p>
+                        </div>
+                    </div>
+                    <div class="animal-info">
+                        <p>The giraffe is an African artiodactyl mammal, the tallest living terrestrial animal.</p>
+                        <a href="#" class="btn-card">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="endangered">
+                    <div class="animal-image">
+                        <img src="images/wildlife/gorilla.jpg" alt="Gorilla">
+                        <div class="animal-overlay">
+                            <h3>Mountain Gorilla</h3>
+                            <p>Gorilla beringei beringei</p>
+                        </div>
+                    </div>
+                    <div class="animal-info">
+                        <p>The mountain gorilla is one of the two subspecies of the eastern gorilla, endangered and found in volcanic mountains.</p>
+                        <a href="#" class="btn-card">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conservation Section -->
+    <section class="conservation">
+        <div class="container">
+            <h2 class="section-title">Wildlife Conservation</h2>
+            <div class="conservation-content">
+                <div class="conservation-text">
+                    <h3>Protecting Africa's Natural Heritage</h3>
+                    <p>Africa is home to some of the world's most iconic wildlife, but many species face threats from habitat loss, poaching, and human-wildlife conflict. Conservation efforts across the continent are working to protect these magnificent animals for future generations.</p>
+                    <p>Organizations and governments are implementing strategies such as anti-poaching patrols, community-based conservation, habitat restoration, and wildlife corridors to ensure the survival of Africa's diverse species.</p>
+                    <a href="#" class="btn">Support Conservation</a>
+                </div>
+                <div class="conservation-stats">
+                    <div class="conservation-stat">
+                        <h4>1,000+</h4>
+                        <p>Protected Areas</p>
+                    </div>
+                    <div class="conservation-stat">
+                        <h4>200+</h4>
+                        <p>Endangered Species</p>
+                    </div>
+                    <div class="conservation-stat">
+                        <h4>50+</h4>
+                        <p>Conservation Organizations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>African Heritage Explorer</h3>
+                    <p>Discovering and sharing the diverse beauty of Africa through education and inspiration.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="countries.html">Countries</a></li>
+                        <li><a href="wildlife.html">Wildlife</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Travel Guides</a></li>
+                        <li><a href="#">Cultural Events</a></li>
+                        <li><a href="#">Wildlife Conservation</a></li>
+                        <li><a href="#">Historical Archives</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Heritage Street, Cultural District</p>
+                    <p><i class="fas fa-phone"></i> +1 (234) 567-8901</p>
+                    <p><i class="fas fa-envelope"></i> info@africanheritage.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 African Heritage Explorer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/wildlife.js"></script>
+</body>
+</html>
